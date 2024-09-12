@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{744613d4-ffba-4019-8c92-84f22f4ea1ce}</ProjectGuid>
+    <RootNamespace>DSASAMSUNGPTIT</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="T308 - TỔ HỢP C%28n, k%29.cpp" />
+    <ClCompile Include="CP01016 - ƯỚC SỐ CHUNG LỚN NHẤT %28GCD%29.cpp" />
+    <ClCompile Include="1457 - BÀI 8. TỔ HỢP C%28n, k%29.cpp" />
+    <ClCompile Include="1179 - DFS TRÊN ĐỒ THỊ VÔ HƯỚNG.cpp" />
+    <ClCompile Include="1181 - BFS TRÊN ĐỒ THỊ VÔ HƯỚNG.cpp" />
+    <ClCompile Include="1184 - TÌM ĐƯỜNG ĐI THEO DFS VỚI ĐỒ THỊ CÓ HƯỚNG.cpp" />
+    <ClCompile Include="1186 - TÌM ĐƯỜNG Đi THEO BFS TRÊN ĐỒ THỊ CÓ HƯỚNG.cpp" />
+    <ClCompile Include="1187 - KIỂM TRA ĐƯỜNG ĐI.cpp" />
+    <ClCompile Include="1192 - LIỆT KÊ ĐỈNH TRỤ.cpp" />
+    <ClCompile Include="1194 - LIỆT KÊ CẠNH CẦU.cpp" />
+    <ClCompile Include="1196 - KIỂM TRA CHU TRÌNH.cpp" />
+    <ClCompile Include="1206 - ĐƯỜNG ĐI HAMILTON.cpp" />
+    <ClCompile Include="1207 - ĐỒ THỊ HAI PHÍA.cpp" />
+    <ClCompile Include="1214 - KRUSKAL.cpp" />
+    <ClCompile Include="1215 - PRIM.cpp" />
+    <ClCompile Include="1216 - CHU TRÌNH ÂM.cpp" />
+    <ClCompile Include="1217 - DIJKSTRA..cpp" />
+    <ClCompile Include="1218 - BELLMAN-FORD..cpp" />
+    <ClCompile Include="1222 - DI CHUYỂN TRÊN BẢNG SỐ.cpp" />
+    <ClCompile Include="1309 - XÂU NHỊ PHÂN KẾ TIẾP.cpp" />
+    <ClCompile Include="1310 - TẬP CON KẾ TIẾP.cpp" />
+    <ClCompile Include="1311 - HOÁN VỊ KẾ TIẾP.cpp" />
+    <ClCompile Include="1312 - XÂU NHỊ PHÂN TRƯỚC.cpp" />
+    <ClCompile Include="1313 - TẬP CON LIỀN KỀ PHÍA TRƯỚC.cpp" />
+    <ClCompile Include="1314 - PHÂN TÍCH SỐ.cpp" />
+    <ClCompile Include="1315 - HOÁN VỊ NGƯỢC.cpp" />
+    <ClCompile Include="1316 - LIỆT KÊ TẬP CON.cpp" />
+    <ClCompile Include="1317 - DI CHUYỂN TRONG MÊ CUNG 1.cpp" />
+    <ClCompile Include="1318 - DI CHUYỂN TRONG MÊ CUNG 2.cpp" />
+    <ClCompile Include="1319 - ĐỔI CHỖ CÁC CHỮ SỐ.cpp" />
+    <ClCompile Include="1320 - TỔ HỢP SỐ CÓ TỔNG BẰNG X.cpp" />
+    <ClCompile Include="1321 - SẮP XẾP CÔNG VIỆC.cpp" />
+    <ClCompile Include="1322 - NỐI DÂY.cpp" />
+    <ClCompile Include="1323 - SỐ KHỐI LẬP PHƯƠNG.cpp" />
+    <ClCompile Include="1324 - PHÂN SỐ ĐƠN VỊ.cpp" />
+    <ClCompile Include="1325 - GẤP ĐÔI DÃY SỐ.cpp" />
+    <ClCompile Include="1326 - DÃY XÂU FIBONACI.cpp" />
+    <ClCompile Include="1327 - SỐ FIBONACCI THỨ N.cpp" />
+    <ClCompile Include="1328 - LŨY THỪA MA TRẬN.cpp" />
+    <ClCompile Include="1450 - BÀI 1. XÂU CON CHUNG DÀI NHẤT.cpp" />
+    <ClCompile Include="1453 - BÀI 4. DÃY CON TĂNG DÀI NHẤT.cpp" />
+    <ClCompile Include="1456 - BÀI 7. CON ẾCH.cpp" />
+    <ClCompile Include="1458 - BÀI 9. BẬC THANG.cpp" />
+    <ClCompile Include="1459 - XÂU CON ĐỐI XỨNG DÀI NHẤT.cpp" />
+    <ClCompile Include="1463 - BÀI 14. CÁI TÚI.cpp" />
+    <ClCompile Include="1466 - BÀI 17. TỔNG CÁC XÂU CON.cpp" />
+    <ClCompile Include="1467 - BÀI 18. TỔNG BẰNG K.cpp" />
+    <ClCompile Include="1469 - BÀI 20. TỔNG BÌNH PHƯƠNG.cpp" />
+    <ClCompile Include="1470 - HÌNH VUÔNG LỚN NHẤT.cpp" />
+    <ClCompile Include="1471 - BÀI 22. ĐƯỜNG ĐI NHỎ NHẤT.cpp" />
+    <ClCompile Include="1514 - SỬA LẠI DÃY NGOẶC.cpp" />
+    <ClCompile Include="C01052 - ƯỚC SỐ CHIA HẾT CHO 2.cpp" />
+    <ClCompile Include="C03038 - ƯỚC SỐ CỦA GIAI THỪA.cpp" />
+    <ClCompile Include="C03051 - SỐ CHỈ CÓ BA ƯỚC SỐ.cpp" />
+    <ClCompile Include="C03058 - BỘI SỐ NHỎ NHẤT CỦA N SỐ NGUYÊN DƯƠNG ĐẦU TIÊN.cpp" />
+    <ClCompile Include="C03060 - CHIA HẾT.cpp" />
+    <ClCompile Include="CP01002 - TỔNG GIAI THỪA.cpp" />
+    <ClCompile Include="CP01003 - SỐ THUẦN NGUYÊN TỐ.cpp" />
+    <ClCompile Include="CP01005 - TẦN SUẤT LẺ.cpp" />
+    <ClCompile Include="CP01006 - DÃY CON LIÊN TIẾP.cpp" />
+    <ClCompile Include="CP01007 - SỐ ĐỨNG ĐẦU.cpp" />
+    <ClCompile Include="CP01008 - QUAY VÒNG DÃY SỐ.cpp" />
+    <ClCompile Include="CP01018 - TRỘN DÃY SỐ.cpp" />
+    <ClCompile Include="CP01025 - DI CHUYỂN ROBOT.cpp" />
+    <ClCompile Include="CP03001 - MA TRẬN XOẮN ỐC.cpp" />
+    <ClCompile Include="CP03035 - BỐN ĐIỂM TRÊN MẶT PHẲNG.cpp" />
+    <ClCompile Include="CP04001 - ĐỔI TIỀN.cpp" />
+    <ClCompile Include="CP04011 - SỐ NHỎ NHẤT.cpp" />
+    <ClCompile Include="CP04024 - ĐẦU TƯ BITCOIN.cpp" />
+    <ClCompile Include="DSA05008 - DÃY CON CÓ TỔNG BẰNG S.cpp" />
+    <ClCompile Include="ICPC0109 - MIN TRIPLE.cpp" />
+    <ClCompile Include="J02005 - GIAO CỦA HAI DÃY SỐ.cpp" />
+    <ClCompile Include="J03038 - ĐÁNH DẤU CHỮ CÁI.cpp" />
+    <ClCompile Include="S43 - LỰA CHỌN TỐI ƯU.cpp" />
+    <ClCompile Include="PY01074 - TỔNG ƯỚC SỐ.cpp" />
+    <ClCompile Include="S05 - DÃY CON CÓ TỔNG NGUYÊN TỐ.cpp" />
+    <ClCompile Include="S06 - DÃY CON CÓ K PHẦN TỬ TĂNG DẦN.cpp" />
+    <ClCompile Include="S07 - HOÁN VỊ DÃY SỐ.cpp" />
+    <ClCompile Include="S08 - TRỤC TỌA ĐỘ.cpp" />
+    <ClCompile Include="S101 - TÍNH P%28N,K%29.cpp" />
+    <ClCompile Include="S103 - TỔNG BÌNH PHƯƠNG.cpp" />
+    <ClCompile Include="S107 - ĐƯỜNG ĐI NHỎ NHẤT - 1.cpp" />
+    <ClCompile Include="S108 - ĐƯỜNG ĐI NHỎ NHẤT - 2.cpp" />
+    <ClCompile Include="S121 - BẦU CỬ.cpp" />
+    <ClCompile Include="S122 - HỢP VÀ GIAO CỦA HAI TẬP HỢP TỪ.cpp" />
+    <ClCompile Include="S123 - DI CHUYỂN ROBOT.cpp" />
+    <ClCompile Include="S20 - XÂU NHỊ PHÂN XEN KẼ.cpp" />
+    <ClCompile Include="S21 - GIÁ TRỊ LỚN NHẤT.cpp" />
+    <ClCompile Include="S213 - SỐ LỘC PHÁT.cpp" />
+    <ClCompile Include="S301 - ĐƯỜNG ĐI CÓ HƯỚNG.cpp" />
+    <ClCompile Include="S33 - LIỆT KÊ XÂU KÝ TỰ.cpp" />
+    <ClCompile Include="S40 - TÍNH LŨY THỪA.cpp" />
+    <ClCompile Include="S41 - NỐI DÂY 2.cpp" />
+    <ClCompile Include="S52 - BIỂU DIỄN SỐ K.cpp" />
+    <ClCompile Include="S63 - TỔNG CÁC XÂU CON.cpp" />
+    <ClCompile Include="S65 - SỐ THUẬN NGHỊCH.cpp" />
+    <ClCompile Include="S70 - DÃY CON LIÊN TIẾP CÓ TỔNG BẰNG K.cpp" />
+    <ClCompile Include="S71 - TỔNG SỐ CÁCH DI CHUYỂN.cpp" />
+    <ClCompile Include="S72 - DÃY TAM GIÁC DÀI NHẤT.cpp" />
+    <ClCompile Include="S73 - ĐẦU TƯ BITCOIN.cpp" />
+    <ClCompile Include="T1291 - PHÉP CỘNG.cpp" />
+    <ClCompile Include="T1300 - SỐ KHỐI LẬP PHƯƠNG.cpp" />
+    <ClCompile Include="T1302 - PHÂN SỐ ĐƠN VỊ.cpp" />
+    <ClCompile Include="T1307 - BỐN ĐIỂM TRÊN MẶT PHẲNG.cpp" />
+    <ClCompile Include="T301 - XÂU CON CHUNG DÀI NHẤT.cpp" />
+    <ClCompile Include="T304 - DÃY CON TĂNG DÀI NHẤT.cpp" />
+    <ClCompile Include="T307 - CON ẾCH.cpp" />
+    <ClCompile Include="T309 - BẬC THANG.cpp" />
+    <ClCompile Include="TN01021 - TỔNG SỐ CÁCH DI CHUYỂN.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

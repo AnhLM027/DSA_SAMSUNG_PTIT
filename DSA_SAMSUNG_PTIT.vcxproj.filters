@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\dddddd">
+      <UniqueIdentifier>{82f251be-ac73-42c3-9e9c-c7aa4648b461}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="1179 - DFS TRÊN ĐỒ THỊ VÔ HƯỚNG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1181 - BFS TRÊN ĐỒ THỊ VÔ HƯỚNG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1184 - TÌM ĐƯỜNG ĐI THEO DFS VỚI ĐỒ THỊ CÓ HƯỚNG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1186 - TÌM ĐƯỜNG Đi THEO BFS TRÊN ĐỒ THỊ CÓ HƯỚNG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1187 - KIỂM TRA ĐƯỜNG ĐI.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1192 - LIỆT KÊ ĐỈNH TRỤ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1194 - LIỆT KÊ CẠNH CẦU.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1196 - KIỂM TRA CHU TRÌNH.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1206 - ĐƯỜNG ĐI HAMILTON.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1207 - ĐỒ THỊ HAI PHÍA.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1214 - KRUSKAL.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1215 - PRIM.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1216 - CHU TRÌNH ÂM.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1217 - DIJKSTRA..cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1218 - BELLMAN-FORD..cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1222 - DI CHUYỂN TRÊN BẢNG SỐ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1309 - XÂU NHỊ PHÂN KẾ TIẾP.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1310 - TẬP CON KẾ TIẾP.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1311 - HOÁN VỊ KẾ TIẾP.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1312 - XÂU NHỊ PHÂN TRƯỚC.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1313 - TẬP CON LIỀN KỀ PHÍA TRƯỚC.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1314 - PHÂN TÍCH SỐ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1315 - HOÁN VỊ NGƯỢC.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1316 - LIỆT KÊ TẬP CON.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1317 - DI CHUYỂN TRONG MÊ CUNG 1.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1318 - DI CHUYỂN TRONG MÊ CUNG 2.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1319 - ĐỔI CHỖ CÁC CHỮ SỐ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1320 - TỔ HỢP SỐ CÓ TỔNG BẰNG X.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1321 - SẮP XẾP CÔNG VIỆC.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1322 - NỐI DÂY.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1323 - SỐ KHỐI LẬP PHƯƠNG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1324 - PHÂN SỐ ĐƠN VỊ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1325 - GẤP ĐÔI DÃY SỐ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1326 - DÃY XÂU FIBONACI.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1327 - SỐ FIBONACCI THỨ N.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1328 - LŨY THỪA MA TRẬN.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1450 - BÀI 1. XÂU CON CHUNG DÀI NHẤT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1453 - BÀI 4. DÃY CON TĂNG DÀI NHẤT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1456 - BÀI 7. CON ẾCH.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP04011 - SỐ NHỎ NHẤT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP01016 - ƯỚC SỐ CHUNG LỚN NHẤT %28GCD%29.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1457 - BÀI 8. TỔ HỢP C%28n, k%29.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1458 - BÀI 9. BẬC THANG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1459 - XÂU CON ĐỐI XỨNG DÀI NHẤT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1463 - BÀI 14. CÁI TÚI.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1466 - BÀI 17. TỔNG CÁC XÂU CON.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1467 - BÀI 18. TỔNG BẰNG K.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1469 - BÀI 20. TỔNG BÌNH PHƯƠNG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1470 - HÌNH VUÔNG LỚN NHẤT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1471 - BÀI 22. ĐƯỜNG ĐI NHỎ NHẤT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="1514 - SỬA LẠI DÃY NGOẶC.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="C01052 - ƯỚC SỐ CHIA HẾT CHO 2.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="C03038 - ƯỚC SỐ CỦA GIAI THỪA.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="C03051 - SỐ CHỈ CÓ BA ƯỚC SỐ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="C03058 - BỘI SỐ NHỎ NHẤT CỦA N SỐ NGUYÊN DƯƠNG ĐẦU TIÊN.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="C03060 - CHIA HẾT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP01002 - TỔNG GIAI THỪA.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP01003 - SỐ THUẦN NGUYÊN TỐ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP01005 - TẦN SUẤT LẺ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP01006 - DÃY CON LIÊN TIẾP.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP01007 - SỐ ĐỨNG ĐẦU.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP01008 - QUAY VÒNG DÃY SỐ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP01018 - TRỘN DÃY SỐ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP01025 - DI CHUYỂN ROBOT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP03001 - MA TRẬN XOẮN ỐC.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP03035 - BỐN ĐIỂM TRÊN MẶT PHẲNG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP04001 - ĐỔI TIỀN.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="TN01021 - TỔNG SỐ CÁCH DI CHUYỂN.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="T308 - TỔ HỢP C%28n, k%29.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP04024 - ĐẦU TƯ BITCOIN.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="DSA05008 - DÃY CON CÓ TỔNG BẰNG S.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="ICPC0109 - MIN TRIPLE.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="J02005 - GIAO CỦA HAI DÃY SỐ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="J03038 - ĐÁNH DẤU CHỮ CÁI.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S43 - LỰA CHỌN TỐI ƯU.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="PY01074 - TỔNG ƯỚC SỐ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S05 - DÃY CON CÓ TỔNG NGUYÊN TỐ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S06 - DÃY CON CÓ K PHẦN TỬ TĂNG DẦN.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S07 - HOÁN VỊ DÃY SỐ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S08 - TRỤC TỌA ĐỘ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S20 - XÂU NHỊ PHÂN XEN KẼ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S21 - GIÁ TRỊ LỚN NHẤT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S33 - LIỆT KÊ XÂU KÝ TỰ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S40 - TÍNH LŨY THỪA.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S41 - NỐI DÂY 2.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S52 - BIỂU DIỄN SỐ K.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S63 - TỔNG CÁC XÂU CON.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S65 - SỐ THUẬN NGHỊCH.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S70 - DÃY CON LIÊN TIẾP CÓ TỔNG BẰNG K.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S71 - TỔNG SỐ CÁCH DI CHUYỂN.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S72 - DÃY TAM GIÁC DÀI NHẤT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S73 - ĐẦU TƯ BITCOIN.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S101 - TÍNH P%28N,K%29.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S103 - TỔNG BÌNH PHƯƠNG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S107 - ĐƯỜNG ĐI NHỎ NHẤT - 1.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S108 - ĐƯỜNG ĐI NHỎ NHẤT - 2.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S121 - BẦU CỬ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S122 - HỢP VÀ GIAO CỦA HAI TẬP HỢP TỪ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S123 - DI CHUYỂN ROBOT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S213 - SỐ LỘC PHÁT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S301 - ĐƯỜNG ĐI CÓ HƯỚNG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="T301 - XÂU CON CHUNG DÀI NHẤT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="T304 - DÃY CON TĂNG DÀI NHẤT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="T307 - CON ẾCH.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="T309 - BẬC THANG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="T1291 - PHÉP CỘNG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="T1300 - SỐ KHỐI LẬP PHƯƠNG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="T1302 - PHÂN SỐ ĐƠN VỊ.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="T1307 - BỐN ĐIỂM TRÊN MẶT PHẲNG.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
