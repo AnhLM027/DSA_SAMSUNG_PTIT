@@ -345,5 +345,29 @@
     <ClCompile Include="T1307 - BỐN ĐIỂM TRÊN MẶT PHẲNG.cpp">
       <Filter>Source Files\dddddd</Filter>
     </ClCompile>
+    <ClCompile Include="1536 - THAY THẾ O-X.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="CP03031 - GHÉP HÌNH CHỮ NHẬT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S03 - LỰA CHỌN THAM LAM.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S42 - PHẦN TỬ LỚN NHẤT TRONG DÃY CON.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S60 - DÃY SỐ VÔ HẠN.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S61 - SỐ BƯỚC ÍT NHẤT.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="S104 - DÃY SỐ BI-TONIC.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
+    <ClCompile Include="T305 - TỔNG LỚN NHẤT CỦA DÃY CON TĂNG DẦN.cpp">
+      <Filter>Source Files\dddddd</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -127,6 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1536 - THAY THẾ O-X.cpp" />
+    <ClCompile Include="CP03031 - GHÉP HÌNH CHỮ NHẬT.cpp" />
+    <ClCompile Include="S03 - LỰA CHỌN THAM LAM.cpp" />
+    <ClCompile Include="S104 - DÃY SỐ BI-TONIC.cpp" />
+    <ClCompile Include="S42 - PHẦN TỬ LỚN NHẤT TRONG DÃY CON.cpp" />
+    <ClCompile Include="S60 - DÃY SỐ VÔ HẠN.cpp" />
+    <ClCompile Include="S61 - SỐ BƯỚC ÍT NHẤT.cpp" />
+    <ClCompile Include="T305 - TỔNG LỚN NHẤT CỦA DÃY CON TĂNG DẦN.cpp" />
     <ClCompile Include="T308 - TỔ HỢP C%28n, k%29.cpp" />
     <ClCompile Include="CP01016 - ƯỚC SỐ CHUNG LỚN NHẤT %28GCD%29.cpp" />
     <ClCompile Include="1457 - BÀI 8. TỔ HỢP C%28n, k%29.cpp" />
