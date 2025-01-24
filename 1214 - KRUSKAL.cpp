@@ -10,6 +10,7 @@ typedef long long ll;
 struct edge {
     int x, y, w;
 };
+
 vector<edge> dscanh;
 bool visited[1001];
 int V, E;
